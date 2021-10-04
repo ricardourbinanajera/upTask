@@ -1,0 +1,22 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyecto UppTask con Node y MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Ricardo Urbina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mysql2": "^2.3.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5",
+    "slug": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
